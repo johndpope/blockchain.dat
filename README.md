@@ -25,7 +25,7 @@ mkdir ~/.bitcoin/
 
 # use transmission to download the bootstrap.dat file
 sudo apt-get install transmission-cli
-wget http://sourceforge.net/projects/bitcoin/files/Bitcoin/blockchain/bootstrap.dat.torrent/download
+wget https://getbitcoinblockchain.com/blockchain.torrent
 mkdir ./blockchain
 transmission-cli -D -u 0 -w ~/.bitcoin bootstrap.torrent
 
