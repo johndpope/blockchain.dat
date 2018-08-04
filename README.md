@@ -1,5 +1,16 @@
 # blockchain.dat
-torrent location https://getbitcoinblockchain.com/blockchain.torrent
+run torrent
+
+https://github.com/WagerrTor/bootstrap/blob/08823407d34523735a0964e15976b753c5786970/README.md
+Building bootstrap.dat file
+
+1. concatenate all the blk files
+        
+        ```        
+        cat blk000*.dat > bootstrap.dat
+        ```
+
+1. Done.
 
 ⛳️   
 
